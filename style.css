@@ -543,6 +543,9 @@ span{
         img{
             animation:none;
         }
+        .about{
+            margin-top:70px;
+        }
         .about img{
             width:70vw;
             margin-top:0.001rem;
@@ -553,15 +556,13 @@ span{
             margin: 1rem;
             width: 100%;
         }
-        #menu-icon{
-            display: block;
-            padding-right: 70px;
-        }
         .education{
+            padding-top:100px;
             padding-left: 10px;
             width:100%;
         }
         .skills{
+            padding-top:100px;
             padding-left: 10px;
             width:100%;
         }
