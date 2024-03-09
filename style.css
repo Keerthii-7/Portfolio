@@ -503,7 +503,7 @@ span{
     .about img{
         width:70vw;
         margin-top:0.001rem;
-        padding: 0px 0px 0px 100px;
+        padding: 0px 0px 0px 70px;
     }
     .skills{
         padding-top: 15%;
@@ -516,14 +516,6 @@ span{
     }
     .footer{
         padding:2rem 3%;
-    }
-}
-@media (max-width:450px){
-    html{
-        font-size:50%;
-    }
-    .contact form .input-box input{
-        width:100%;
     }
 }
 @media (max-width:365px){
@@ -540,4 +532,37 @@ span{
         text-align:center;
         margin-top:2rem;
     }
+}
+@media only screen and (max-width: 480px){
+        html{
+            font-size:50%;
+        }
+        .contact form .input-box input{
+            width:100%;
+        }
+        img{
+            animation:none;
+        }
+        .about img{
+            width:70vw;
+            margin-top:0.001rem;
+            padding-left:0%;
+        }
+        .about-content p{
+            font-size:1.9rem;
+            margin: 1rem;
+            width: 100%;
+        }
+        #menu-icon{
+            display: block;
+            padding-right: 70px;
+        }
+        .education{
+            padding-left: 10px;
+            width:100%;
+        }
+        .skills{
+            padding-left: 10px;
+            width:100%;
+        }
 }
